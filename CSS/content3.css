@@ -1,0 +1,190 @@
+/*
+* @Author: z
+* @Date:   2019-12-24 22:08:55
+* @Last Modified by:   z
+* @Last Modified time: 2019-12-30 16:54:46
+*/
+.content3 {
+	width: auto;
+	height: 606px;
+/* background-color: #ccc; */
+	margin-top: 30px;
+}
+.content3 .douban-film {
+	width: 950px;
+	height: 566px;
+/* background: pink; */
+/* 盒子居中法一：都是固定值 */	
+	/* position: absolute;
+	left: 475px;
+	margin-top: 10px; */
+/* 盒子居中法二：优点：细调是麻烦，但可以根据窗口改变盒子位置 */	
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	margin-top: 293px;
+}
+.content3 .douban-film .side-nav {
+	width: 100px;
+	height: 273px;
+	/*background-color: red;*/
+	float: left;
+}
+.content3 .douban-film .side-nav h2 a {
+	text-decoration: none;
+	display: block;
+	margin-bottom: 12px;
+	color: #2277aa;	
+}
+.content3 .douban-film .side-nav ul li {
+	list-style: none;
+	width: 100px;
+	height: 22px;
+	margin-bottom: 5px;
+}
+.content3 .douban-film .side-nav ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 22px;
+	color: #2277aa;
+}
+.content3 .douban-film .hot-film .film-list {
+	width: 535px;
+	height: 526px;
+/* background: #6cd4ff; */
+	float: left;
+	margin-left: 20px;
+}
+.content3 .douban-film .hot-film .film-list ul li a img {
+	width: 100px;
+	height: 140px;
+}
+.content3 .douban-film .hot-film .film-list ul li {
+	float: left;
+	list-style: none;
+
+	width: 100px;
+	height: 223px;
+/*background: chocolate;*/
+	margin: 0 16px 40px 16px;
+	vertical-align: top;	
+}
+.content3 .douban-film .hot-film .film-list ul li .title {
+	width: 100px;
+	height: 18px;
+/*background: red;*/
+	display: block;
+	text-align: center;	
+	font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 4px;
+
+/*设置a标签里内容超过一定宽度后隐藏并且变成省略号*/
+	/*必须设为块级元素*/
+	/*必须固定宽度*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;/*规定段落文本不换行*/
+}
+.content3 .douban-film .hot-film .film-list ul li .rating {
+	width: 100px;
+	height: 19px;
+	line-height: 19px;
+/* background: pink; */
+	text-align: center;	
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+.content3 .douban-film .hot-film .film-list ul li .rating i {
+	font-style: normal;
+	color: #e09015;
+	margin-left: 4px;
+}
+.content3 .douban-film .hot-film .film-list ul li span a {
+	text-decoration: none;
+	color: #fff;
+	width: 68px;
+	height: 23px;
+	line-height: 23px;
+	background: #047fcb;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+	border-radius:3px;
+}
+
+
+/* 右边侧边栏------------------------------------------------- */
+.content3 .douban-film .side-right .film-sort {
+	width: 265px;
+	height: 168px;
+/* background:lightblue; */
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.content3 .douban-film .side-right .film-sort ul {
+	width: 265px;
+	height: 138px;
+/* background:red; */
+}
+.content3 .douban-film .side-right .film-sort ul li {
+ 	float: left;
+	list-style: none;
+/* background: blue; */
+	width:48px;
+	height: 19px;
+	line-height: 16px; /*----------------难调*/
+	margin-bottom: 4px;
+	margin-right: 2px;/* 自认为加上效果好 */
+}
+.content3 .douban-film .side-right .film-sort ul li a {
+	text-decoration: none;
+	color: #27a;
+	font-size: 12px;
+/* background: pink; */
+	/* 细调： */
+	display: inline-block;
+	width: auto;
+	height: 14px;
+	line-height: 14px;
+}
+/*.content3 .douban-film .side-right .film-sort ul li a:hover {
+	background-color: #3377aa;
+	color: #fff;
+}*/
+
+.content3 .douban-film .side-right .hot-recently {
+	width: 265px;
+	height: 338px;
+/* background-color: lightblue; */
+	float: left;
+	margin-left: 30px;
+}
+.content3 .douban-film .side-right .hot-recently ol {
+	width: 265px;
+	height: 304px;
+/* background-color: red; */
+}
+.content3 .douban-film .side-right .hot-recently ol li {
+	width: 265px;
+	height: 24px;
+/* background-color: orange; */
+	border-bottom: 1px solid #eaeaea;
+	list-style-position: inside;/* 把有序列表的序号缩进 */
+	margin-bottom: 6px;
+	font-size: 12px;
+/* margin-left: 10px; */
+}
+.content3 .douban-film .side-right .hot-recently ol li a {
+	text-decoration: none;
+/* background: pink; */
+	margin-left: 5px;
+	color: #27a;
+}
+.content3 .douban-film .side-right .hot-recently ol li a:hover {
+	background-color: #3377aa; 
+}

@@ -1,0 +1,111 @@
+/*
+* @Author: z
+* @Date:   2019-11-27 20:28:38
+* @Last Modified by:   z
+* @Last Modified time: 2020-06-21 15:52:18
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+.clear {
+	clear: both;
+}
+
+.tabBar {
+	width: 1080px;
+	height: 34px;
+/* background-color: #00f; */
+	margin: 0 auto 26px;
+	margin-top: 30px;
+}
+.tabBar .logo {
+	width: 160px;
+	height: 34px; 
+	/* padding: 2px; *//* 自己的效果 */
+	float: left;
+	margin-right: 29px;
+}		
+.tabBar .SearchBox .inp input {
+	float: left;
+	display: block;
+	width: 270px;
+	height: 30px;
+	border: 1px solid #c3c3c3;
+	outline-style: none;/*点击时的外边框为none*/
+	/* padding: 1px; *//* 自己的效果 */
+	text-indent: 5px;
+}
+.tabBar .SearchBox .inp input::placeholder { 
+	color: #cccccc;
+}
+.tabBar .SearchBox .btn {
+	position: relative;
+}
+.tabBar .SearchBox .btn button {			
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 1px;
+	margin-right: 1px;
+	border: none;
+	background: transparent;/* 背景透明 */
+	/* background-color: #f00; */
+	outline: none;
+	cursor: pointer;
+}
+.tabBar .SearchBox .btn button i {         
+    font-size: 13px;
+    color: pink;
+}
+
+.tabBar .list ul li .read_books {         
+    color: #533a22;
+}
+.tabBar .list ul li .film {
+	color: #f7ab57;
+}
+.tabBar .list ul li .music {
+	color: #f27400;
+}
+.tabBar .list ul li .intra_city {
+	color: #eb6622;
+}
+.tabBar .list ul li .group {
+	color: #07929a;
+}
+.tabBar .list ul li .read {
+	color: #389eac;
+}
+.tabBar .list ul li .fm {
+	color: #99d5c4;
+}
+.tabBar .list ul li .time {
+	color: #494949;
+}
+.tabBar .list ul li .market {
+	color: #357e2e;
+}
+
+.tabBar .list ul {
+	display: inline;/* 太难难难 */
+	position: absolute;/* 太难难难 */
+	width: 509px;
+	height: 21px;
+	line-height: 20px;
+	margin: 7px 0;
+	margin-left: 110px;
+	/* background-color: #f00; */
+}
+.tabBar .list ul li {
+	float: left;
+	list-style: none;
+}
+.tabBar .list ul li a {
+	text-decoration: none;
+	margin-right: 17px;
+	font-size: 20px;
+	font-weight: bold;
+}  

@@ -1,0 +1,286 @@
+ .main {
+	/*width: 1903px;*/
+	width: auto;
+	height: 304px;
+	position: relative;
+	background-color: #edf4ed;
+	/*background: red;*/
+	position: relative;
+	}
+/* 12月30日改的样式 */
+.main {
+	background-image: url(https://img9.doubanio.com/view/puppy_image/raw/public/16ad990ec23uwn790d4.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: -webkit-calc(50% - 305px) top; 
+}
+.main .main-center {
+	width: 950px;
+	height: 304px;
+	/* background: red; */
+	margin: 0 auto;
+}
+
+
+.main img {	
+	float: left;
+	}
+.main .app {
+/* width: 150px; */
+	height: 120px;
+	float:left;
+/* background: red; */
+	margin: 92px 0 auto 475px;
+	}
+.main .app .font {	
+	font-size: 25px;
+	display: block;
+	margin-bottom: 20px;
+	}
+.main .app .dow a {
+	text-decoration:none;
+	width: 114px;
+	height: 30px;
+	background: #00b51d;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	margin-right: -14px;
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	}
+.main .app .dow img {
+	border-radius: 2px;
+	margin-left: 20px;	
+	}
+
+.main .formArea {	
+	width: 300px;
+	height: 300px;
+	margin-left: 25px;
+	float: right;
+	background: #edf4ed;
+	position: relative;	
+	}
+.main .formArea .formArea_head {	
+	width: 280px;
+	height: 28px;
+	margin: 30px 10px 13px 10px;
+	/* background: lightblue; */
+	border-bottom: 1px solid #ececec;
+	}
+.main .formArea .formArea_head .login a {
+	font-size: 14px;	
+	width: 140px;
+	height: 27px;
+	/*background: #f00; */
+	border-bottom: 1px solid #494949;
+	line-height: 27px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+.main .formArea .formArea_head .pwd_login a {	
+	font-size: 14px;
+	width: 140px;
+	height: 27px;
+/* background: red; */
+	line-height: 27px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}	
+/* .main .formArea .formArea_head .login a:hover {	
+	border-bottom: 1px solid #000;
+}
+.main .formArea .formArea_head .pwd_login a:hover {	
+	border-bottom: 1px solid #000;
+} */
+.main .formArea img {
+	top: 0;
+	right: 0;
+	position: absolute;
+	margin: 10px 10px 0 0;
+}
+
+.main .formArea .agreement {
+	display: block;
+
+	font-size: 12px;
+	width: 280px;
+	height: 19px;
+	line-height: 19px;
+
+	margin-left: 10px;
+}
+.main .formArea .agreement .tips {
+	display: inline;
+	color: #9b9b9b;
+}
+.main .formArea .agreement .agreement_policies a {
+	color: #41ac52;
+	text-decoration: none;
+}
+
+.main .formArea .formArea_input{
+	width: 280px;
+	height: 130px;
+
+	margin: 0 auto;
+	position: relative;
+}
+.main .formArea .formArea_input .code {
+	float: left;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .formArea .formArea_input .region_tel {
+	position: absolute;
+	width: 50px;
+	height: 22px;
+	line-height: 22px;
+/* background: red; */
+	border-right: 1px solid #e0e0e0;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 1px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.main .formArea .formArea_input .tel::placeholder{
+	text-indent: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ###################################################################################################### */
+.main .formArea .formArea_input .get_verification_code a {
+/* 可看见的样式 */
+	text-decoration: none;
+	text-align: center;
+	color: #41ac52;
+	width: 65px;
+	height: 33px;
+	line-height: 33px;
+
+/* 定位 */	
+	/* background-color: blue; */
+	float: left;
+	position: absolute;
+
+/* 细调 */
+	font-size: 13px;
+	margin-left: 205px;
+	margin-top: 10px;	
+}
+
+.main .formArea .formArea_input input {
+	width: 278px;
+	height: 31px;
+	border: 1px solid #e4e6e5;
+	outline: none;
+	border-radius: 3px;
+	margin-top: 10px;
+	text-indent: 0.8em;
+}
+.main .formArea .formArea_input button {
+	width: 280px;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 2px;
+	background: #97d8a1;
+	outline: none;
+	border: none;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.main .formArea .formArea_input_fun {
+	width: 280px;
+	height: 41px;
+	display: block;
+	margin: 0 auto;
+}
+.main .formArea .formArea_input_fun .auto_logon {
+	width: 96px;
+	height: 41px;
+	line-height: 41px;
+	display: block;
+	font-size: 13px;
+	float: left;
+}
+.main .formArea .formArea_input_fun a {
+	text-decoration: none;
+	color: #41ac52;
+	width: 78px;
+	height: 41px;
+	line-height: 41px;
+	display: block;
+	font-size: 13px;
+	float: right;
+}
+
+.main .formArea .formArea_extend_fun {
+	width: 250px;
+	height: 34px;
+/* background: #f00; */
+	display: block;
+	margin-left: 10px;
+	border-top: 1px solid #dddddd;
+
+	position: relative; 
+}
+.main .formArea .formArea_extend_fun .tip {
+	line-height: 34px;
+	color: #9b9b9b;
+	font-size: 12px;
+
+	position: absolute;
+}
+.main .formArea .formArea_extend_fun a img[src="image/wx.PNG"] {
+	position: relative;
+	margin-left: 79px;
+	margin-top: 6px;
+}
+.main .formArea .formArea_extend_fun a img[src="image/xl.PNG"] {
+	position: relative;
+	margin-left: 16px;
+	margin-top: 6px;
+}

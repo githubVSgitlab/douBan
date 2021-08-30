@@ -1,0 +1,141 @@
+/*
+* @Author: z
+* @Date:   2019-12-26 11:03:00
+* @Last Modified by:   z
+* @Last Modified time: 2019-12-30 16:55:22
+*/
+.content4 {
+	width: auto;
+	height:  614px;
+/* background: #008c8c; */
+	background: #f7f7f7;
+	margin-top: 30px;
+}
+.content4 .douban-group {
+	width: 950px;
+	height:  554px;
+/* background: pink; */
+
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	margin-top: 317px;
+}
+.content4 .douban-group .group {
+	width: 100px;
+	height: 246px;
+	float: left;
+	margin-right: 20px;
+}
+.content4 .douban-group .group h2 a {
+	text-decoration: none;
+	display: block;
+	margin-bottom: 12px;
+	color: #007982;	
+}
+.content4 .douban-group .group ul li {
+	list-style: none;
+	width: 100px;
+	height: 22px;
+	margin-bottom: 5px;
+}
+.content4 .douban-group .group ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 22px;
+	color: #007982;
+}
+
+/*中间，热门小组*/
+.content4 .douban-group .hot-group {
+	width: 535px;
+	height: 440px;
+/* background: #499ec1; */
+	float: left;
+}
+.content4 .douban-group .hot-group ul li a img {
+	width: 48px;
+	height: 48px;
+	float: left;
+	margin-right: 15px;
+}
+.content4 .douban-group .hot-group ul li {
+	width: 248px;
+	height: 58px;
+/* background: lightblue; */
+	list-style: none;
+	float: left;
+}
+.content4 .douban-group .hot-group ul li:nth-child(odd) {
+	margin: 0 30px 30px 0;
+}
+.content4 .douban-group .hot-group ul li .info {
+	width: 185px;
+	height: 42px;
+	float: left;
+}
+.content4 .douban-group .hot-group ul li .info a {
+	width: 185px;
+	height: 18px;
+	line-height: 18px;
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+	color: #017a85;
+	margin-bottom: 5px;
+}
+.content4 .douban-group .hot-group ul li .info span {
+	width: 185px;
+	height: 18px;
+	line-height: 18px;
+	display: block;
+	font-size: 12px;
+	color: #999999;
+}
+
+/*右侧边栏*/
+.content4 .douban-group .group-type {
+	width: 265px;
+	height: 554px;
+/* background: lightblue; */
+	float: left;
+	margin-left: 30px;
+}
+.content4 .douban-group .group-type .category {
+	width: 265px;
+	height: auto;
+	display: inline-block;/*必须设置inline-block，否则auto无用*/
+/* background: lightblue; */
+	margin-bottom: 6px;
+}
+.content4 .douban-group .group-type .category .category-label {
+	width: 265px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 14px;
+
+}
+.content4 .douban-group .group-type .category .category-label a {
+	color: #333333;
+	text-decoration: none;
+}
+.content4 .douban-group .group-type .category ul li:not(.category-label) a {
+	font-size: 12px;
+
+	text-decoration: none;
+	color: #017a85;
+}
+.content4 .douban-group .group-type .category ul li {
+	list-style: none;
+	float: left;
+	width: auto;
+	height: 19px;
+	margin-right: 10px;
+
+	line-height: 16px;
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+/*
+* @Author: 机房3605
+* @Date:   2019-12-27 11:22:09
+* @Last Modified by:   z
+* @Last Modified time: 2019-12-30 15:59:06
+*/
+.footer {
+	width: 950px;
+	height: 130px;
+/* background: pink; */
+	margin: 0 auto;
+	margin-top: 30px;
+	border-top: 1px dashed #dcdcdc;
+	color: #999;
+	font-size: 12px;
+	line-height: 1.62;	
+/* 调盒子上下居中 */	position: relative;
+	margin-bottom: 30px;
+}
+.footer .footer-left {
+	float: left;
+/* background-color: red; */
+/* 调盒子上下居中 */
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%); 
+	position: relative;
+}
+.footer span a {
+	color: #37a;
+	text-decoration: none;
+}
+.footer .footer-right {
+	float: right;
+/* background-color: green; */
+/* 调盒子上下居中 */
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 98px;
+}
+.footer .footer-right img {
+	display: block;
+	margin-top: 20px;
+}
